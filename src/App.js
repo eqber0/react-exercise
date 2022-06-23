@@ -1,9 +1,12 @@
-import Header from "./components/Header"
-
+import { useState } from "react"
+import Counter from "./components/Counter"
 function App() {
+  const [isVisible, setIsVisible] = useState(true)
   return (
-    <div className="container">
-      <Header />
+    <div>
+      {isVisible && <Counter />}
+      <br />
+      <button onClick={() => setIsVisible(!isVisible)}>Toggle</button>
     </div>
   )
 }
