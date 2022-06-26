@@ -1,12 +1,8 @@
-import { useState } from "react"
-import Counter from "./components/Counter"
+import Contacts from "./components/Contact"
 function App() {
-  const [isVisible, setIsVisible] = useState(true)
   return (
-    <div>
-      {isVisible && <Counter />}
-      <br />
-      <button onClick={() => setIsVisible(!isVisible)}>Toggle</button>
+    <div className="container">
+      <Contacts />
     </div>
   )
 }

@@ -1,0 +1,30 @@
+#container {
+  width: 400px;
+  background-color: aliceblue;
+  padding: 20px;
+}
+
+input {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #f6f6f6;
+  outline: 0;
+  background-color: none;
+  box-sizing: border-box;
+}
+
+.list {
+  margin: 15px 0;
+  padding: 0;
+}
+.list li {
+  background-color: antiquewhite;
+  padding: 7px;
+  margin-bottom: 2px;
+  list-style-type: none;
+}
+
+.contact__phone {
+  margin-left: 10px;
+  font-weight: bold;
+}
